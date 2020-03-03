@@ -33,7 +33,69 @@ body {
   display: none;
 }
 
+.photoHolder {
+    margin: 30px 17px;
+    position: relative;
+    width: 40%;
+    height:400px;
+    float:left; 
+    overflow: auto;
+    background-size: cover;
+    background-position: center;
+}
 
+.photoHolder:hover .overlay {
+  opacity: .7;
+}
+
+.photoHolder:hover .captionText {
+  opacity: 1;
+}
+
+.captionText {
+  color: #000000;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0;
+    z-index: 2;
+}
+
+#OscarThumbnail{
+    background-image: url("AdoptablePetImages/oscar.jpg");
+}
+
+#PattyThumbnail{
+    background-image: url("AdoptablePetImages/patty.jpg");
+} 
+
+#LuckyThumbnail{
+    background-image: url("AdoptablePetImages/lucky.jpg");
+}
+
+#Peanuthumbnail{
+    background-image: url("AdoptablePetImages/peanut.jpg");
+}
+
+#BobThumbnail{
+    background-image: url("AdoptablePetImages/bob.jpg");
+}
+
+#DaveyThumbnail{
+    background-image: url("AdoptablePetImages/davey.jpg");
+}
+
+#HammyThumbnail{
+    background-image: url("AdoptablePetImages/hammy.jpg");
+}
+
+#SonicThumbnail{
+    background-image: url("AdoptablePetImages/sonic.jpg");
+}
 
 
 
