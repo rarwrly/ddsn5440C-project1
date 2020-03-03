@@ -33,10 +33,19 @@ body {
   display: none;
 }
 
+/*------- Index  Page---------*/
 
 
+#index-donation-form{
+width: 500px;
+padding: 20px;
+border-style: solid;
+border-width: 5px;
+border-color: black;
 
+}
 
+/*------- Index Page End -----------*/
 
 /*-------------Mobile Formatting -----------*/
 
