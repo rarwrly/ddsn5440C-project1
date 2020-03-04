@@ -3,29 +3,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-p{
-    font-family:"Raleway", 'Arial', sans-serif;
-    font-size: 16px;
-    line-height: 30px;
-    padding-left:100px;
-    padding-right:100px;
-    padding-bottom: 20px;
-}
-
-    #h1{
-    font-size: 25px;
-    margin:auto;
-    padding-left:100px;
-    padding-top: 50px;
-    
-}
 /*Navigation*/
 .topnav {
   overflow: hidden;
   background-color: #910198;
 }
-
-
 
 .topnav a {
   float: left;
@@ -50,6 +32,9 @@ p{
 .topnav .icon {
   display: none;
 }
+
+<<<<<<< HEAD
+
 
 /*------- Index  Page---------*/
 
@@ -129,6 +114,40 @@ border-color: black;
 }
 
 
+#OscarThumbnail{
+    background-image: url("AdoptablePetImages/oscar.jpg");
+}
+
+#PattyThumbnail{
+    background-image: url("AdoptablePetImages/patty.jpg");
+} 
+
+#LuckyThumbnail{
+    background-image: url("AdoptablePetImages/lucky.jpg");
+}
+
+#Peanuthumbnail{
+    background-image: url("AdoptablePetImages/peanut.jpg");
+}
+
+#BobThumbnail{
+    background-image: url("AdoptablePetImages/bob.jpg");
+}
+
+#DaveyThumbnail{
+    background-image: url("AdoptablePetImages/davey.jpg");
+}
+
+#HammyThumbnail{
+    background-image: url("AdoptablePetImages/hammy.jpg");
+}
+
+#SonicThumbnail{
+    background-image: url("AdoptablePetImages/sonic.jpg");
+}
+
+/******** END Adoptable Pets Gallery Page **********/
+
 /*AMBER'S LOCATION PAGE STYLING*/
 
 /* HERO IMAGE */
@@ -144,14 +163,8 @@ border-color: black;
 .hero-content {
 }
 
-@media only screen and (min-width: 700px)
-.hero-img {
-  
-   
-}
 
-
-/*  SECTIONS  */
+/*  SECTIONS FOR PAGE FEEL FREE TO ADJUST IF YOU NEED TO OR WANT TO  */
 .section {
 	clear: both;
 	padding: 0px;
@@ -248,16 +261,6 @@ border-color: black;
     justify-content: center;
 }
 
-/*  GO FULL WIDTH BELOW 800 PIXELS */
-@media only screen and (max-width: 800px) {
-	.col {  margin: 1% 0 1% 0%; }
-	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
-}
-/*  WRAP THE CONTENTS AT 900 AND ABOVE PIXELS */
-@media only screen and (min-width: 900px) {
-	.mapdetails { width: 75%; }
-}
-
 .Map_SVG {
     display: flex;
     width: 75%;
@@ -326,42 +329,6 @@ input[type=text] {
 
 /*END AMBER'S STYLING*/
 
-#OscarThumbnail{
-    background-image: url("AdoptablePetImages/oscar.jpg");
-}
-
-#PattyThumbnail{
-    background-image: url("AdoptablePetImages/patty.jpg");
-} 
-
-#LuckyThumbnail{
-    background-image: url("AdoptablePetImages/lucky.jpg");
-}
-
-#Peanuthumbnail{
-    background-image: url("AdoptablePetImages/peanut.jpg");
-}
-
-#BobThumbnail{
-    background-image: url("AdoptablePetImages/bob.jpg");
-}
-
-#DaveyThumbnail{
-    background-image: url("AdoptablePetImages/davey.jpg");
-}
-
-#HammyThumbnail{
-    background-image: url("AdoptablePetImages/hammy.jpg");
-}
-
-#SonicThumbnail{
-    background-image: url("AdoptablePetImages/sonic.jpg");
-}
-
-/******** END Adoptable Pets Gallery Page **********/
-
-
-
 /*-------------Mobile Formatting -----------*/
 
 /*-----Navigation for Mobile----*/
@@ -387,13 +354,18 @@ input[type=text] {
   }
 }
 
-/*I'm trying to make the photos full width 1 column
-/*    .photoHolder {
-    width: 100%;
-    padding: 400px 0px 10px 0px;
-    margin-left:0px;
-    margin-top: 3px;
-    margin-bottom:20px;
-}*/
+@media only screen and (min-width: 700px)
+.hero-img {
+  
+   
+}
 
-
+/*  GO FULL WIDTH BELOW 800 PIXELS */
+@media only screen and (max-width: 800px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
+}
+/*  WRAP THE CONTENTS AT 900 AND ABOVE PIXELS */
+@media only screen and (min-width: 900px) {
+	.mapdetails { width: 75%; }
+}
