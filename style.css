@@ -9,6 +9,24 @@ body {
   background-color: #910198;
 }
 
+p{
+    font-family:"Raleway", 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    padding-left:100px;
+    padding-right:100px;
+    padding-bottom: 20px;
+}
+
+    #h1{
+    font-size: 25px;
+    margin:auto;
+    padding-left:100px;
+    padding-top: 50px;
+    
+}
+
+
 .topnav a {
   float: left;
   display: block;
@@ -35,7 +53,50 @@ body {
 
 /*------- Index  Page---------*/
 
+/******** Adoptable Pets Gallery Page *********/
 
+.photoHolder {
+    margin: 30px 17px;
+    position: relative;
+    width: 40%;
+    height:400px;
+    float:left; 
+    overflow: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ffffff;
+ 
+}
+
+.captionText {
+  color: #000000;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0;
+    z-index: 2;
+}
+.photoHolder:hover .overlay {
+  opacity: .7;
+}
+
+<<<<<<< HEAD
 #index-donation-form{
 width: 500px;
 padding: 20px;
@@ -44,6 +105,58 @@ border-width: 5px;
 border-color: black;
 
 }
+=======
+.photoHolder:hover .captionText {
+  opacity: 1;
+}
+
+.captionText {
+  color: #000000;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0;
+    z-index: 2;
+}
+
+#OscarThumbnail{
+    background-image: url("AdoptablePetImages/oscar.jpg");
+}
+
+#PattyThumbnail{
+    background-image: url("AdoptablePetImages/patty.jpg");
+} 
+
+#LuckyThumbnail{
+    background-image: url("AdoptablePetImages/lucky.jpg");
+}
+
+#Peanuthumbnail{
+    background-image: url("AdoptablePetImages/peanut.jpg");
+}
+
+#BobThumbnail{
+    background-image: url("AdoptablePetImages/bob.jpg");
+}
+
+#DaveyThumbnail{
+    background-image: url("AdoptablePetImages/davey.jpg");
+}
+
+#HammyThumbnail{
+    background-image: url("AdoptablePetImages/hammy.jpg");
+}
+
+#SonicThumbnail{
+    background-image: url("AdoptablePetImages/sonic.jpg");
+}
+
+/******** END Adoptable Pets Gallery Page **********/
+>>>>>>> d220c6b4c85d4516528fa82fc0b3f0c99ad04890
 
 /*------- Index Page End -----------*/
 
@@ -71,3 +184,14 @@ border-color: black;
     text-align: left;
   }
 }
+
+/*I'm trying to make the photos full width 1 column
+/*    .photoHolder {
+    width: 100%;
+    padding: 400px 0px 10px 0px;
+    margin-left:0px;
+    margin-top: 3px;
+    margin-bottom:20px;
+}*/
+
+
