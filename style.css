@@ -3,12 +3,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/*Navigation*/
-.topnav {
-  overflow: hidden;
-  background-color: #910198;
-}
-
 p{
     font-family:"Raleway", 'Arial', sans-serif;
     font-size: 16px;
@@ -25,6 +19,12 @@ p{
     padding-top: 50px;
     
 }
+/*Navigation*/
+.topnav {
+  overflow: hidden;
+  background-color: #910198;
+}
+
 
 
 .topnav a {
@@ -50,6 +50,19 @@ p{
 .topnav .icon {
   display: none;
 }
+
+/*------- Index  Page---------*/
+
+#index-donation-form{
+width: 500px;
+padding: 20px;
+border-style: solid;
+border-width: 5px;
+border-color: black;
+
+}
+
+/*------- Index Page End -----------*/
 
 
 /******** Adoptable Pets Gallery Page *********/
@@ -94,6 +107,7 @@ p{
 .photoHolder:hover .overlay {
   opacity: .7;
 }
+
 
 .photoHolder:hover .captionText {
   opacity: 1;
@@ -145,6 +159,7 @@ p{
 }
 
 /******** END Adoptable Pets Gallery Page **********/
+
 
 
 /*-------------Mobile Formatting -----------*/
