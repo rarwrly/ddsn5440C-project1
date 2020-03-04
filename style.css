@@ -62,6 +62,7 @@ border-color: black;
 
 }
 
+
 /*------- Index Page End -----------*/
 
 
@@ -109,6 +110,7 @@ border-color: black;
 }
 
 
+
 .photoHolder:hover .captionText {
   opacity: 1;
 }
@@ -126,7 +128,7 @@ border-color: black;
     z-index: 2;
 }
 
-<<<<<<< HEAD
+
 /*AMBER'S LOCATION PAGE STYLING*/
 
 /* HERO IMAGE */
@@ -323,7 +325,7 @@ input[type=text] {
 }
 
 /*END AMBER'S STYLING*/
-=======
+
 #OscarThumbnail{
     background-image: url("AdoptablePetImages/oscar.jpg");
 }
@@ -357,7 +359,6 @@ input[type=text] {
 }
 
 /******** END Adoptable Pets Gallery Page **********/
->>>>>>> e0b0ef7c9aeab5d0be94847a83fdc9d0f2fb2750
 
 
 
