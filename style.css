@@ -126,6 +126,204 @@ border-color: black;
     z-index: 2;
 }
 
+<<<<<<< HEAD
+/*AMBER'S LOCATION PAGE STYLING*/
+
+/* HERO IMAGE */
+
+.section_group_hero {
+    position: relative;
+    z-index: -1;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    
+}
+
+
+.hero-content {
+}
+
+@media only screen and (min-width: 700px)
+.hero-img {
+  
+   
+}
+
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 10px;
+    background-color: #f2f2f2;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+
+.mapdetails {
+	display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #ffff; 
+
+    
+}
+
+.maplocations {
+	display: flex;
+    flex-direction: row;
+    width: 93%;
+    margin: 30px;
+    height: 100px;
+    background-color: #FF4A1C; 
+
+
+    
+}
+
+.maptextarea {
+    display: flex;
+    width: 10%;
+    margin-right: 30%;
+    padding-left: 50px;
+    justify-content: flex-start;
+    
+}
+
+.maptextarealeft {
+    display: flex;
+    justify-content: flex-end;
+    width: 45%;
+    margin: 5px;
+    padding: 20px;
+
+    
+}
+
+.maptext-type {
+    font-family: Montserrat;
+    font-weight: 200;
+    color: #ffff;
+    font-size: 24px;
+}
+
+
+
+.col:first-child { margin-left: 0; }
+
+
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF FOUR  */
+.span_4_of_4 {
+	width: 100%;
+}
+.span_3_of_4 {
+	width: 74.6%;
+}
+.span_2_of_4 {
+	width: 49.2%;
+}
+.span_1_of_4 {
+	width: 23.8%;
+}
+
+.span_1_of_4_solo {
+	width: 100%;
+    height: auto;
+    margin: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+/*  GO FULL WIDTH BELOW 800 PIXELS */
+@media only screen and (max-width: 800px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
+}
+/*  WRAP THE CONTENTS AT 900 AND ABOVE PIXELS */
+@media only screen and (min-width: 900px) {
+	.mapdetails { width: 75%; }
+}
+
+.Map_SVG {
+    display: flex;
+    width: 75%;
+    height: 300px;
+    margin: 20px
+}
+
+.section_group_MAP {
+    background-color: #ffff;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+#Philadelphia_Map {
+    width: 35%;
+    align-content: center;
+    justify-content: center;
+}
+
+path:hover {
+  fill: #f9de56 !important;
+  cursor: pointer;
+}
+
+.section_group_MAPDETAILS {
+    background-color: #f2f2f2;
+    display: flex;
+}
+
+.section_group_LOCATIONDETAILS {
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f2;
+}
+
+
+/* CONTACT FORM */
+
+input[type=text] {
+    width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+}
+
+.contactform {
+    font-family: Montserrat;
+    font-size: 24px;
+    
+    
+}
+
+.button {
+    background-color: #FFBA49;
+}
+
+/* FOOTER */
+
+.section_group_FOOTER {
+    display: flex;
+    justify-content: center;
+    background-color: #FF4A1C;
+    height: 300px;
+}
+
+/*END AMBER'S STYLING*/
+=======
 #OscarThumbnail{
     background-image: url("AdoptablePetImages/oscar.jpg");
 }
@@ -159,6 +357,7 @@ border-color: black;
 }
 
 /******** END Adoptable Pets Gallery Page **********/
+>>>>>>> e0b0ef7c9aeab5d0be94847a83fdc9d0f2fb2750
 
 
 
