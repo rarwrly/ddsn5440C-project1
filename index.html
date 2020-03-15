@@ -13,18 +13,47 @@
   		<a href="javascript:void(0);" class="icon" onclick="navFunction()">
     	<i class="fa fa-bars"></i></a>
 	</div>
-	<div id = "content">
+	<div id = "content" class = "center-column">
 		<div id = "index-content-header">
 			<h1>Welcome to Philly Pets</h1>
 			<h2>Your local pet finder</h2>
 		</div>
 		<div id = "index-content-body">
-			<div id = "index-content">
+			<div class = "index-content">
 				<h2>About Us:</h2>
 				<div>
 					<p>Philly Pets strives to find forever homes for the animals across the Philadelphia shelter systems. Check out the gallery below to see some of our success stories.</p>
-					<p>Looking for your own pet to take home? check out the Adopt a new friend page to see who's looking.</p>
-					<p>Can't adopt a pet due to renting? Help out by volunttering at one of our locations or by donating below
+				</div>
+			</div>
+			<div id = "index-gallery"> 
+				<h2>Pets We've Helped Palace in the Last Month</h2>
+				<div class="slideshow-container">
+  					<div class="mySlides fade">
+   						<div class="numbertext">1/2</div>
+    					<img src="img/gozer.jpg" style="width:100%">
+    					<div class="text">Gozer a Ball Python found his new home in South Philly</div>
+ 					 </div>
+   					<div class="mySlides fade">
+   						<div class="numbertext">2/2</div>
+    					<img src="img/dolly-abby.jpg" style="width:100%">
+    					<div class="text">Abby and Dolly were adopted from PAWS</div>
+ 					 </div>
+  					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+ 					 <a class="next" onclick="plusSlides(1)">&#10095;</a>
+				</div>
+				<br>
+<!--progression dots-->
+				<div style="text-align:center">
+  					<span class="dot" onclick="currentSlide(1)"></span> 
+  					<span class="dot" onclick="currentSlide(2)"></span> 
+				</div>
+			</div>
+            
+			<div class = "index-content">
+                <h2>Looking to Adopt?</h2>
+					<p>Is it time for you to bring home a new family member? Check out the <a href="adoptions.html">Adopt a New Friend</a> page to see who's looking.</p>
+                <h2>Looking for Other Ways to Help?</h2>
+					<p>Can't adopt a pet due to renting? Help out by voluntering at one of our locations or by donating below. Volunteer locations are listed on the <a href="locations.html">Locations</a> page.
 					</p>
 				</div>
 			</div>
@@ -38,38 +67,8 @@
 				</div>
 
 			</div>
-			<div id = "index-gallery"> 
-				<h2>Pets We've Helped Palace in the Last Month</h2>
-				<!-- Slideshow container -->
-				<div class="slideshow-container">
 
-  <!-- Full-width images with number and caption text -->
-
-
-  					<div class="mySlides fade">
-   						<div class="numbertext">1/2</div>
-    					<img src="img/gozer.jpg" style="width:100%">
-    					<div class="text">Gozer a Ball Python found his new home in South Philly</div>
- 					 </div>
-   					<div class="mySlides fade">
-   						<div class="numbertext">2/2</div>
-    					<img src="img/dolly-abby.jpg" style="width:100%">
-    					<div class="text">Abby and Dolly were adopted from PAWS</div>
- 					 </div>
-
-  <!-- Next and previous buttons -->
-  					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
- 					 <a class="next" onclick="plusSlides(1)">&#10095;</a>
-				</div>
-				<br>
-
-<!-- The dots/circles -->
-				<div style="text-align:center">
-  					<span class="dot" onclick="currentSlide(1)"></span> 
-  					<span class="dot" onclick="currentSlide(2)"></span> 
-				</div>
-			</div>
-		</div>		
+		</div>
 	</div>
 
 
