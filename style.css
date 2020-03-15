@@ -44,12 +44,18 @@ div.center-column {
   display: none;
 }
 
+.topnav a.logo{
+    background-color:#910198;
+    padding: 8px 16px;
+}
+
+
 
 
 /*------- Index  Page---------*/
 
 .donation-form {
-width: 500px;
+width: 600px;
 padding: 20px;
 border-style: solid;
 border-width: 3px;
@@ -470,6 +476,21 @@ input[type=text] {
     display: block;
     text-align: left;
   }
+}
+/*** INDEX Page**/
+@media screen and (max-width: 900px) {
+#content {
+    width: 90%;
+}
+div.centercolumn {
+    width: 98%;
+}  
+    .slideshow-container {
+  width: 98%;
+}
+.donation-form {
+width: 80%
+}
 }
 
 @media only screen and (min-width: 700px)
