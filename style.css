@@ -55,8 +55,9 @@ border-style: solid;
 border-width: 3px;
 border-color: black;
 margin-top: 20px;
+margin-bottom: 20px;
 }
-a.index-content{
+.link-style{
     font-weight: bold;
 }
 
