@@ -3,22 +3,31 @@ function navFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
     x.className += " responsive";
-  } else {
+  } 
+  else {
     x.className = "topnav";
   }
 }
 
 /*---Index Page---*/
 /*Donation form  on Index*/
- var submit = document.getElementById("donation-submit")
+  var donationName = document.getElementById("donation-full-name");
+  var donationAmt = document.getElementById("donation-amount");
+   var submit = document.getElementById("donation-submit")
 
-submit.addEventListener('click', function(){
-	 	var donationName = document.getElementById("donation-full-name")
- 		var donationAmt = document.getElementById("donation-amount")
-	
-	 		console.log(donationName)
-
-	 })
+ submit.addEventListener('click', function (){ //only executes on the submit button
+        if (donationName.value !=='' && donationAmt.value !==''){
+              alert("Thank you " + donationName.value + " for your donation of $" + donationAmt.value)
+              donationName.value = ''
+              donationAmt.value = ''
+        }
+        else if (donationName.value !=='' && donationAmt.value ==''){
+              alert("Please enter your donation amount on the form. click Ok to close this pop-up.")
+        }
+        else if (donationName.value =='' && donationAmt.value !==''){
+              alert("Please enter your full name on the form. click Ok to close this pop-up.")
+        }
+ })
 
 /*Index page slide show*/
 
