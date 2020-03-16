@@ -67,15 +67,21 @@ border-color: black;
 
 /******** Adoptable Pets Gallery Page *********/
 
+/*.gallery{
+   border: 3px solid green;
+
+}*/
+
 .photoHolder {
     margin: 30px 17px;
     position: relative;
-    width: 40%;
+    width: 46%;
     height:400px;
     float:left; 
     overflow: auto;
     background-size: cover;
     background-position: center;
+
 }
 
 .overlay {
@@ -384,7 +390,7 @@ input[type=text] {
 	.mapdetails { width: 75%; }
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 990px){
   .photoHolder {
     margin:auto;
     width: 100%;
