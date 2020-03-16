@@ -3,6 +3,19 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+#content{
+display: flex;
+flex-direction: column;
+width: auto;
+margin-top:0px;
+align-content: center;
+justify-content: center;
+margin-left:70px;
+margin-right:70px;
+/*width: 900px;*/
+/*margin-left:40px;*/
+}
+
 /*Navigation*/
 .topnav {
   overflow: hidden;
@@ -36,6 +49,7 @@ body {
 <<<<<<< HEAD
 
 
+
 /*------- Index  Page---------*/
 
 #index-donation-form{
@@ -53,15 +67,21 @@ border-color: black;
 
 /******** Adoptable Pets Gallery Page *********/
 
+/*.gallery{
+   border: 3px solid green;
+
+}*/
+
 .photoHolder {
     margin: 30px 17px;
     position: relative;
-    width: 40%;
+    width: 46%;
     height:400px;
     float:left; 
     overflow: auto;
     background-size: cover;
     background-position: center;
+
 }
 
 .overlay {
@@ -368,4 +388,18 @@ input[type=text] {
 /*  WRAP THE CONTENTS AT 900 AND ABOVE PIXELS */
 @media only screen and (min-width: 900px) {
 	.mapdetails { width: 75%; }
+}
+
+@media only screen and (max-width: 990px){
+  .photoHolder {
+    margin:auto;
+    width: 100%;
+    margin-top:20px;}
+}
+    
+@media only screen and (max-width: 800px){
+  #content{
+margin-left:30px;
+margin-right:30px;
+}
 }
