@@ -1,7 +1,10 @@
+/* SETTING UP BRANCH TEST */
+
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 
 
 /*#content {
@@ -14,6 +17,7 @@ div.center-column {
     width: 1120px;
     margin: 0px auto;
 }
+
 #content{
 display: flex;
 flex-direction: column;
@@ -28,6 +32,31 @@ margin-right:70px;
 }
 
 /*Navigation*/
+
+.navbar-brand   {
+    display:inline-block;
+    margin: 10px;
+}
+
+.logo-image{
+    width: 150px;
+    height: 40px;
+    border: none;
+    margin-top: 0px;
+    margin: 6px;
+    
+}
+
+.logo-image-footer{
+    width: 300px;
+    height: 40px;
+    border: none;
+    margin-top: 0px;
+    margin: 6px;
+    
+}
+
+
 .topnav {
   overflow: hidden;
   background-color: #910198;
@@ -56,6 +85,7 @@ margin-right:70px;
 .topnav .icon {
   display: none;
 }
+
 
 .topnav a.logo{
     background-color:#910198;
@@ -307,74 +337,37 @@ body {
 .hero-content {
 }
 
+.headline {
+    font-family: 'Nunito';
+    color: #019891;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+p2 {
+    color: #ffff;
+    font-family: 'Nunito';
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px;
+}
 
 /*  SECTIONS FOR PAGE FEEL FREE TO ADJUST IF YOU NEED TO OR WANT TO  */
 .section {
 	clear: both;
-	padding: 0px;
 	margin: 10px;
+    width: 100%;
     background-color: #f2f2f2;
 }
 
 /*  COLUMN SETUP  */
 .col {
 	display: block;
-	float:left;
-	margin: 1% 0 1% 1.6%;
+	float: left;
+	margin: auto;
 }
-
-.mapdetails {
-	display: flex;
-    flex-direction: column;
-    width: 100%;
-    background-color: #ffff; 
-
-    
-}
-
-.maplocations {
-	display: flex;
-    flex-direction: row;
-    width: 93%;
-    margin: 30px;
-    height: 100px;
-    background-color: #FF4A1C; 
-
-
-    
-}
-
-.maptextarea {
-    display: flex;
-    width: 10%;
-    margin-right: 30%;
-    padding-left: 50px;
-    justify-content: flex-start;
-    
-}
-
-.maptextarealeft {
-    display: flex;
-    justify-content: flex-end;
-    width: 45%;
-    margin: 5px;
-    padding: 20px;
-
-    
-}
-
-.maptext-type {
-    font-family: Montserrat;
-    font-weight: 200;
-    color: #ffff;
-    font-size: 24px;
-}
-
-
 
 .col:first-child { margin-left: 0; }
-
-
 
 /*  GROUPING  */
 .group:before,
@@ -393,17 +386,71 @@ body {
 	width: 49.2%;
 }
 .span_1_of_4 {
-	width: 23.8%;
+	width: 24%;
 }
 
-.span_1_of_4_solo {
-	width: 100%;
-    height: auto;
-    margin: 10px;
-    display: flex;
-    align-content: center;
-    justify-content: center;
+
+
+/* MAP STYLING */
+.mapdetails {
+	display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #ffff; 
+   
 }
+
+
+.maplocations {
+	display: flex;
+    flex-direction: row;
+    width: 93%;
+    margin: 30px;
+    height: auto;
+    background-color: #019891; 
+
+
+    
+}
+
+.maptextarea {
+    display: flex;
+    width: 60%;
+    margin-top: 20px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    justify-content: flex-start;
+    flex-direction: row;
+    
+}
+
+.maptextarealeft {
+    display: flex;
+    justify-content:flex-end;
+    width: 80%;
+    margin-right: 5px;
+    padding: 20px;
+
+    
+}
+
+.maptext-type {
+    font-family: Montserrat;
+    font-weight: 200;
+    color: #ffff;
+    font-size: 24px;
+    margin: 5px;
+}
+
+.LocationTitle {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: #770e7f;
+    
+}
+
+/*MAP*/
 
 .Map_SVG {
     display: flex;
@@ -417,6 +464,7 @@ body {
     display: flex;
     align-content: center;
     justify-content: center;
+
     
 }
 
@@ -427,21 +475,20 @@ body {
 }
 
 path:hover {
-  fill: #f9de56 !important;
+  fill: #fa9afe;
   cursor: pointer;
 }
 
 .section_group_MAPDETAILS {
-    background-color: #f2f2f2;
+    background-color: #ffff;
     display: flex;
 }
 
 .section_group_LOCATIONDETAILS {
     display: flex;
     justify-content: center;
-    background-color: #f2f2f2;
+    background-color: #ffff;
 }
-
 
 /* CONTACT FORM */
 
@@ -459,17 +506,86 @@ input[type=text] {
 }
 
 .button {
-    background-color: #FFBA49;
+    background-color: #019891;
+    width: 100px;
+    padding: 5px;
+    color: #ffff;
+    float: right;
+    margin: 10px;
 }
+
 
 /* FOOTER */
 
-.section_group_FOOTER {
+.span_1_of_4_solo {
+	width: 100%;
+    height: auto;
+    margin: 10px;
     display: flex;
+    align-content: center;
     justify-content: center;
-    background-color: #FF4A1C;
-    height: 300px;
 }
+
+.tag-line   {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: #ffff;
+    font-size: 22px;
+}
+
+.span_1_of_4-footer {
+	width: 100%;
+    height: auto;
+    margin-top: 80px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.vl {
+    width: 1px;;
+    height: 80px;
+    background-color: #770e7f;
+    float: left;
+    margin-top: 10px;
+}
+
+.footerlogo {
+    width: 100%;
+    margin: 20px;
+}
+
+.section_group_FOOTER {
+    display: inline-block;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    background-color: #910198;
+}
+
+.section_group_FOOTER_content {
+    display:block;
+    justify-content: center;
+    align-content: center;
+    background-color: #910198;
+    height: 125px;
+    padding: 50px;
+}
+
+.footer-type {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    color: #ffff;
+    font-size: 13px;
+    align-content: center;
+    justify-content: center;
+
+    padding-top: 0,10px;
+    margin-top: 0px;
+}
+
+
 
 /*END AMBER'S STYLING*/
 
@@ -482,6 +598,7 @@ input[type=text] {
     float: right;
     display: block;
   }
+    
 }
 
 @media screen and (max-width: 600px) {
@@ -496,6 +613,19 @@ input[type=text] {
     display: block;
     text-align: left;
   }
+    .section_group_FOOTER_content {
+        margin: 10px;
+        padding: 5px;
+    }
+    
+    .vl {
+        display: none;
+    }
+    
+    .maplocations {
+        flex-direction: row;
+        height: auto;
+    }
 }
 /*** INDEX Page**/
 @media screen and (max-width: 900px) {
@@ -528,6 +658,7 @@ width: 80%
 @media only screen and (min-width: 900px) {
 	.mapdetails { width: 75%; }
 }
+
 
 @media only screen and (max-width: 990px){
   .photoHolder {
