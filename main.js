@@ -9,7 +9,9 @@ function navFunction() {
   }
 }
 
-/*---Index Page---*/
+if (document.body.getAttribute('data-page-type') == "index"){
+    console.log("this is the index page")
+    /*---Index Page---*/
 /*Donation form  on Index*/
   var donationName = document.getElementById("donation-full-name");
   var donationAmt = document.getElementById("donation-amount");
@@ -62,10 +64,12 @@ function showSlides(n) {
 
 
 /*---- End Index Page*----*/
+    }
 
 
-
-
+if (document.body.getAttribute('data-page-type') == "locations"){
+    console.log("this is the location page")
+    
 /* AMBER JS FOR LOCATIONS PAGE */
 
 /* CONTACT ALERT */
@@ -112,11 +116,11 @@ document.getElementById("SouthphillyAdressIcon").addEventListener("click", funct
 
  
 /* END AMBER'S JS */
+}
 
 
-
-
-
+if (document.body.getAttribute('data-page-type') == "adpotions"){
+    console.log("this is the adoptions page")
 //ADOPTIONS JS CLICK EVENTS//
 
 var oscar = document.getElementById("OscarThumbnail");
@@ -166,11 +170,4 @@ davey.addEventListener("click", function () {
 
 //END ADOPTIONS JS CLICK EVENTS//
 
-
-
-
-
-
-
-
-
+}
